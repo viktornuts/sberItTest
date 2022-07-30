@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class PythonDeveloperPage {
 
     SelenideElement
-            sendInfoButton = $("[class='plasma__sc-dcpyn7-1 iIwjlz']"),
+            sendInfoButton = $("[class='.plasma__sc-dcpyn7-0.plasma-b2c__sc-1cchc20-0.guEfdK.eYZQJn']"),
             surnameAllert = $(By.xpath("//div[text()='Поле Фамилия не должно быть короче 2 символов']")),
             nameAllert = $(By.xpath("//div[text()='Поле Имя не должно быть короче 2 символов']")),
             emailAllert = $(By.xpath("//div[text()='Поле Email не должно быть короче 5 символов']")),
