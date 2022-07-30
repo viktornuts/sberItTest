@@ -96,10 +96,6 @@ gradle clean test
 значок <img width="2%" title="Allure Report" src="images/logo/Allure.svg"><code><strong>*Allure
 Report*</strong></code>, кликнув по которому, откроется страница с сформированным html-отчетом.*
 
-<p align="center">
-  <img src="images/screens/Jenkins2.png" alt="job" width="1000">
-</p>
-
 ## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/AUTO-638/8/allure/)
 
 ### :pushpin: Общая информация
