@@ -1,4 +1,4 @@
-# Проект по автоматизации тестирования сайта СберКорус
+# Проект по автоматизации тестирования сайта СберIT (https://developers.sber.ru/kak-v-sbere)
 
 ## :page_with_curl:	Содержание
 
@@ -32,10 +32,8 @@
 <code><img width="5%" title="Junit5" src="images/logo/Junit5.svg"></code>
 <code><img width="5%" title="GitHub" src="images/logo/GitHub.svg"></code>
 <code><img width="5%" title="Allure Report" src="images/logo/Allure.svg"></code>
-<code><img width="5%" title="Allure TestOps" src="images/logo/Allure_TO.svg"></code>
 <code><img width="5%" title="RestAssured" src="images/logo/RestAssured.svg"></code>
 <code><img width="5%" title="Jenkins" src="images/logo/Jenkins.svg"></code>
-<code><img width="5%" title="Jira" src="images/logo/Java.svg"></code>
 <code><img width="5%" title="Telegram" src="images/logo/Telegram.svg"></code>
 </p>
 
@@ -49,22 +47,19 @@
 >
 >*<code><strong>*Selenoid*</strong></code> используется для запуска браузеров в контейнерах  <code><strong>*Docker*</strong></code>.*
 >
->*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
+>*<code><strong>*Allure Report и Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
 
 
 ## :bookmark_tabs: Реализованы проверки
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
-> - [x] *Проверка перехода на страницу авторизации продукта 'Курьер'*
->- [x] *Проверка ошибок в консоле*
->- [x] *Проверка раздела 'О компании'*
->- [x] *Проверка перехода на страницу клиента из раздела 'Клиенты'*
->- [x] *Проверка банера главной страницы*
->- [x] *Проверка раздела 'Клиенты'*
->- [x] *Проверка работы поиска*
->- [x] *Проверка оформления подписки по почте*
->- [x] *Проверка заголовка главной страницы*
+> - [x] *Проверка банера главной страницы*
+>- [x] *Проверка текста раздела 'Эксперт Greenplum'*
+>- [x] *Проверка предупреждений при отправке контактов для Python разработчиков (PajeObj)*
+>- [x] *Проверка раздела 'Команды'*
+>- [x] *Проверка раздела 'ДНК инженера'*
+>- [x] *Проверка раздела 'Почему мы'*
 
 ## :computer: Запуск тестов из терминала 
 
