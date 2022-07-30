@@ -12,10 +12,6 @@
 >
 > :heavy_check_mark: [Отчет о результатах тестирования в Allure Report](#-отчет-о-результатах-тестирования-в-allure-report)
 > 
-> :heavy_check_mark: [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
-> 
-> :heavy_check_mark: [Интеграция с Jira](#-интеграция-с-jira)
->
 > :heavy_check_mark: [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
 >
 > :heavy_check_mark: [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid)
@@ -124,26 +120,6 @@ Report*</strong></code>, кликнув по которому, откроетс�
 
 <p align="center">
   <img src="images/screens/Alure_Report3.png" alt="Allure Report" width="900">
-</p>
-
-## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/10145)
-
-### :pushpin: Основной дашборд
-
-<p align="center">
-  <img src="images/screens/Alure_TO.png" alt="dashboards" width="900">
-</p>
-
-### :pushpin: Тест-кейсы
-
-<p align="center">
-  <img src="images/screens/Alure_TO3.png" alt="test cases" width="900">
-</p>
-
-## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/AUTO-638)
-
-<p align="center">
-  <img src="images/screens/Jira.png" alt="jira" width="1000">
 </p>
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
