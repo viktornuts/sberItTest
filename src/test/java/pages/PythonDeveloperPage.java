@@ -3,6 +3,7 @@ package pages;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
+
 import static com.codeborne.selenide.Selenide.*;
 
 
@@ -16,31 +17,30 @@ public class PythonDeveloperPage {
             phoneAllert = $(By.xpath("//div[text()='Поле обязательно для заполнения']"));
 
 
-    public PythonDeveloperPage clickSendInfoButton () {
+    public PythonDeveloperPage clickSendInfoButton() {
         sendInfoButton.scrollTo().click();
         return this;
-}
+    }
 
-    public PythonDeveloperPage checkSurnameAllert () {
+    public PythonDeveloperPage checkSurnameAllert() {
         surnameAllert.shouldBe(Condition.visible);
         return this;
     }
 
-    public PythonDeveloperPage checkNameAllert () {
+    public PythonDeveloperPage checkNameAllert() {
         nameAllert.shouldBe(Condition.visible);
         return this;
     }
 
-    public PythonDeveloperPage checkEmailAllert () {
+    public PythonDeveloperPage checkEmailAllert() {
         emailAllert.shouldBe(Condition.visible);
         return this;
     }
 
-    public PythonDeveloperPage checkPhonelAllert () {
+    public PythonDeveloperPage checkPhonelAllert() {
         phoneAllert.shouldBe(Condition.visible);
         return this;
     }
-
 
 
 }
