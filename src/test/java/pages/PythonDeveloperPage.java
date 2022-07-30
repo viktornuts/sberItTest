@@ -18,8 +18,7 @@ public class PythonDeveloperPage {
 
 
     public PythonDeveloperPage clickSendInfoButton() {
-        sendInfoButton.scrollTo();
-        sleep(3000);
+        sendInfoButton.scrollIntoView(true);
         sendInfoButton.click();
         return this;
     }
